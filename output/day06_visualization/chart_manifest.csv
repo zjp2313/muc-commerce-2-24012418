@@ -1,0 +1,6 @@
+﻿chart_id,file_name,business_question,chart_type,key_finding,limitation
+01,01_category_bar.png,不同生命周期分层用户的流失率差异有多大？,bar,用户使用时长越短流失率越高，新用户流失风险显著更高,仅展示分组截面差异，无法判定时长与流失因果关系
+02,02_behavior_scatter.png,订单、返现与流失用户分布特征？,scatter,低订单低返现区间流失样本密度更高,只能观察变量相关分布，无法区分因果先后
+03,03_ordered_line.png,流失率随用户阶段变化趋势？,line,生命周期递进，流失率持续单边下降,静态分层，非真实月度时间趋势
+04,04_composition_chart.png,各阶段用户整体占比结构？,pie_or_bar,四层用户体量分布均衡，新用户占比略高,环形图不适合细微数值对比
+05,day06_visualization_summary.png,用户生命周期专题全维度概览,dashboard,新用户留存是平台核心运营痛点，高活跃用户留存更好,综合图简化细节，详细数值需查看单张独立图表
