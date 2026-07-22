@@ -1,0 +1,1 @@
+选择 random_forest，因其 accuracy、precision 和 churn_recall 三项指标均优于另外两模型。其 churn_recall 达 85.79%，能发现大部分潜在流失客户；precision 58.42%，误报可控。相比单棵决策树，随机森林通过 Bagging 集成多棵树，降低过拟合、提升泛化，适合客户流失预测。

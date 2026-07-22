@@ -1,0 +1,1 @@
+本次实践完成了客户流失预测全流程。先进行数据清洗与特征工程，划分数值与类别特征并删除 CustomerID。随后训练 logistic_regression、decision_tree、random_forest，并用 accuracy、precision、churn_recall 评估。最终选择 random_forest，该模型 churn_recall 达 85.79%，整体最优。这次实践让我认识到，模型选择不能只看准确率，更要结合业务关注召回率与精确率，避免被类别不平衡下的高准确率误导。
